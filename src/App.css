@@ -138,6 +138,8 @@ h2{
 }
 .h1{
   height: auto;
+  text-align: center;
+  letter-spacing: 3px;
 }
 
 button{
