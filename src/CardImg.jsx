@@ -13,7 +13,7 @@ const CardImg = () => {
         navigator.clipboard.writeText(`0x1d18d0386f51ab03e7e84e71bda1681eba865f1f`)
     }
     const handleClickPagJumpt = () => {
-        navigator.clipboard.writeText(`https://app.jumptask.io`)
+        navigator.clipboard.writeText(`https://www.jumptask.io/r/jigatokucale`)
     }
   return (
     <article className="card-box">
