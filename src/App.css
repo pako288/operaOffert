@@ -58,6 +58,8 @@
   color:#f71850e7;
 }
 .card-box{
+  width: 90%;
+  margin: 0 auto ;
   padding: 0 20px ;
   margin-top: 150px;
   /* background: yellow; */
