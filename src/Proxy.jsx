@@ -12,7 +12,7 @@ const Proxy = () => {
     navigator.clipboard.writeText(`Krehisly20.17`);
   };
   const handlePassword = () => {
-    navigator.clipboard.writeText(`rache1234`);
+    navigator.clipboard.writeText(`rache2007`);
   };
   const handleUsernameTwo = () => {
     navigator.clipboard.writeText(`crismar95.custom2`);
