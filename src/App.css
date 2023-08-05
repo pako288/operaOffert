@@ -148,8 +148,8 @@ h2{
   letter-spacing: 3px;
   width: 90%;
   background:  linear-gradient(to right  bottom,#f71850e7 30% , #ffffff50 50% );
-  overflow: hidden;
   margin: 10px auto ;
+  overflow-wrap: break-word;
 }
 
 button{
