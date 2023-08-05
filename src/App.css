@@ -42,15 +42,18 @@
 .p{
   width: 50%;
 }
-
+.box-input{
+  display: flex;
+  justify-content: center;
+}
 .inputOpera{
   height: 50px;
-  width: 100%;
+  width: 90%;
   font-size: 20px;
   /* padding-left: 5px; */
   border-radius: 50px;
   padding: 0;
-  margin: 0;
+  margin-top: 10px;
 }
 .inputOpera::placeholder{
   letter-spacing: 3px;
@@ -139,10 +142,14 @@ h2{
   text-align: center;
 }
 .h1{
-  height: auto;
+  height:max-content;
+  padding: 5px;
   text-align: center;
   letter-spacing: 3px;
-  background: #f0f0f070;
+  width: 90%;
+  background:  linear-gradient(to right  bottom,#f71850e7 30% , #ffffff50 50% );
+  overflow: hidden;
+  margin: 10px auto ;
 }
 
 button{
