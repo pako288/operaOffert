@@ -95,6 +95,7 @@ article{
 
 .proxy-box{
   margin-top: 50px;
+  margin-bottom: 50px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%) , 1fr));
   /* justify-content: center; */
@@ -114,6 +115,7 @@ article{
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  margin-top: 20px;
 }
 
 .shortcurts{
