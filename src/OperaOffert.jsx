@@ -16,8 +16,7 @@ const OperaOffert = () => {
       const detectValue = valuer.slice(-32);
       //   console.log(detectValue);
       setWriteSuccess(true);
-      setValueInput(`https://www.opera.com/client/welcome-gx?utm_campaingn=PWN_US_via_opera_com_https&utm_conetent=266_84660027768&utm_id=${detectValue}&utm_lastpage=opera.com/&utm_medium=pa&utm_site=opera_com&utm_source=PWNgames_via_opera_com&utm_tryagain=yes
-        `);
+      setValueInput(`https://www.opera.com/client/welcome-gx?utm_campaingn=PWN_US_via_opera_com_https&utm_conetent=266_84660027768&utm_id=${detectValue}&utm_lastpage=opera.com/&utm_medium=pa&utm_site=opera_com&utm_source=PWNgames_via_opera_com&utm_tryagain=yes`.trim());
 
       // setValueInput(``)
     }
