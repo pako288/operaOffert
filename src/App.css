@@ -160,6 +160,9 @@ button{
   cursor: pointer;
   border: none;
   outline: none;
+  color: white;
+  background: conic-gradient( #f71850e7 79%, white );
+  font-size: 20px;
 
 }
 
