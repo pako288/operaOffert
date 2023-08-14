@@ -109,7 +109,7 @@ article{
 
 .proxy{
   border-radius: 20px;
-  background: linear-gradient(to right  bottom,#f71850e7 30% , #ffffff50 50% );
+  background: linear-gradient(to right  bottom,#f71850e7 30% , transparent 50% );
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -132,7 +132,7 @@ article{
 
 .shortcurts:hover{
   /* background: red; */
-  background: linear-gradient(to left  bottom,#f71850e7 30% , #ffffff50 50% );
+  background: linear-gradient(to left  bottom,#f71850e7 30% , transparent 50% );
   transition: 10s ;
 }
 
@@ -149,7 +149,7 @@ h2{
   text-align: center;
   letter-spacing: 3px;
   width: 90%;
-  background:  linear-gradient(to right  bottom,#f71850e7 30% , #ffffff50 50% );
+  background:  linear-gradient(to right  bottom,#f71850e7 30% , transparent 50% );
   margin: 10px auto ;
   overflow-wrap: break-word;
 }
@@ -186,7 +186,6 @@ button{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* background: blue; */
   max-width: 100%;
   height: 2600px;
 }
