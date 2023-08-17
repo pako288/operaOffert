@@ -37,7 +37,7 @@ const Proxy = () => {
           <h2 onClick={handleIP}>Direccion IP</h2>
           <h2 onClick={handleUsername}>Username</h2>
           <h2 onClick={handlePassword}>Password</h2>
-          <button onClick={changeIP}>Rotar IP</button>
+          <button onClick={changeIP}>Cambiar IP</button>
         </article>
       </article>{" "}
       <article className="proxy">
@@ -46,7 +46,7 @@ const Proxy = () => {
           <h2 onClick={handleIP}>Direccion IP</h2>
           <h2 onClick={handleUsernameTwo}>Username</h2>
           <h2 onClick={handlePasswordTwo}>Password</h2>
-          <button onClick={changeIPTwo}>Rotar IP</button>
+          <button onClick={changeIPTwo}>Cambiar IP</button>
         </article>
       </article>
     </section>
