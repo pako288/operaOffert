@@ -13,7 +13,8 @@ const OperaOffert = () => {
       setWriteSuccess(false);
       //   console.log(`amarillo`);
     } else {
-      const detectValue = valuer.slice(-32);
+      // const detectValue = valuer.slice(-32);
+      const detectValue = valuer.slice(-66, -34);
       //   console.log(detectValue);
       setWriteSuccess(true);
       setValueInput(`https://www.opera.com/client/welcome-gx?utm_campaingn=PWN_US_via_opera_com_https&utm_conetent=266_84660027768&utm_id=${detectValue}&utm_lastpage=opera.com/&utm_medium=pa&utm_site=opera_com&utm_source=PWNgames_via_opera_com&utm_tryagain=yes`.trim());
@@ -28,9 +29,9 @@ const OperaOffert = () => {
     console.log(`click`);
   };
 
-  const enlace = `https://www.opera.com/computer/thanks?ni=eapgx&os=windows&edition=std-1&utm_source=PWNgames&utm_medium=pa&utm_campaign=PWN_US&utm_content=1034_70d8af6405b320cdf786607dc02087c4&utm_id=f9e376542be442d787b966ec019fd7f5`
+  const enlace = `https://www.opera.com/gx?utm_content=707_8b11f122-6cf2-4cbb-b267-2b466755316f&utm_medium=pa&utm_campaign=PWN_US&utm_id=7f8c38b333a34705a2b0b6b1b5c41b2a&utm_source=PWNgames&edition=std-1`
 
-  console.log(enlace.slice(-35))
+  console.log(enlace.slice(-66, -34))
   return (
     <>
     <article className="box-input">
